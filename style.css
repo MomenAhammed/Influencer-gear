@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    margin-top: 30px;
+}
+
+.nav-part {
+    margin-top: 40px;
+}
+
+.nav-part a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+/* main part */
+.main-pastpart {
+    display: flex;
+    margin-top: 100px;
+}
+
+.first-text {
+    width: 50%;
+
+    margin-left: 80px;
+}
+
+.first-img {
+    width: 900px;
+    margin-left: 200px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 25px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+
+}
+
+hr {
+    width: 80%;
+    justify-content: center;
+
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo {
+    margin-right: 60px;
+}
+
+.second-title {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.each-part {
+    width: 300px;
+    height: 450px;
+    background-color: gray;
+    padding: 20px;
+
+    margin-bottom: 30px;
+
+
+}
+
+
+
+.section-second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.section-top {
+    margin-left: 100px;
+}
+
+footer {
+
+    height: 100px;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding-top: 20px;
+}
